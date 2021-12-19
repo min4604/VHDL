@@ -1,0 +1,26 @@
+# do and_not_or.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module and_not_or
+# 
+# Top level modules:
+# 	and_not_or
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module and_not_or_vlg_sample_tst
+# -- Compiling module and_not_or_vlg_check_tst
+# -- Compiling module and_not_or_vlg_vec_tst
+# 
+# Top level modules:
+# 	and_not_or_vlg_vec_tst
+# vsim -L max3000a_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.and_not_or_vlg_vec_tst 
+# Loading work.and_not_or_vlg_vec_tst
+# Loading work.and_not_or
+# Loading max3000a_ver.max_io
+# Loading max3000a_ver.max_asynch_io
+# Loading max3000a_ver.max_mcell
+# Loading max3000a_ver.max_asynch_mcell
+# Loading max3000a_ver.max_mcell_register
+# Loading work.and_not_or_vlg_sample_tst
+# Loading work.and_not_or_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : and_not_or.vt(179)
+#    Time: 1 us  Iteration: 0  Instance: /and_not_or_vlg_vec_tst/tb_out

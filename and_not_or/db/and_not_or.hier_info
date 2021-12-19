@@ -1,0 +1,8 @@
+|and_not_or
+A => w1.IN0
+B => w1.IN1
+C => E.IN0
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+E << E.DB_MAX_OUTPUT_PORT_TYPE
+
+

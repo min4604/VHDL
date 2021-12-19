@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, D:/VHDL/and_not_or/and_not_or.vhd
+source_file = 1, D:/VHDL/and_not_or/Waveform.vwf
+source_file = 1, D:/VHDL/and_not_or/db/and_not_or.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = and_not_or
+instance = comp, \C~I , C, and_not_or, 1
+instance = comp, \C~1 , C~1, and_not_or, 1
+instance = comp, \A~I , A, and_not_or, 1
+instance = comp, \B~I , B, and_not_or, 1
+instance = comp, \D~2 , D~2, and_not_or, 1
+instance = comp, \E~I , E, and_not_or, 1
+instance = comp, \D~I , D, and_not_or, 1
