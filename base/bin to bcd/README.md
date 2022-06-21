@@ -1,0 +1,1 @@
+ binary to bcd use three different solution.
