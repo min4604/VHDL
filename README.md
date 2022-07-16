@@ -10,3 +10,5 @@ B:std_logic_vector
 A<=conv_integer(B);
 
 B<=conv_std_logic_vector(A,std_logic_vector range);
+
+內部已有徑賽所需各類模組的範例可供使用
