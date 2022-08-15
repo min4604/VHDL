@@ -12,3 +12,5 @@ A<=conv_integer(B);
 B<=conv_std_logic_vector(A,std_logic_vector range);
 
 內部已有競賽所需各類模組的範例可供使用
+
+##對於code有任何的問題可以在lssues 提出會盡快修正與解答
