@@ -7,7 +7,8 @@ entity PUF  is
 port( 	clk_50M	: in	std_logic;
 		res 	: in 	std_logic;
 		sw 		: in 	std_logic_vector(2 downto 0);
-		LED		: out	std_logic
+		LED		: out	std_logic;
+		Ring_OScillator_out: out std_logic_vector(1 downto 0)
 
 	);
 end PUF;
@@ -15,7 +16,7 @@ end PUF;
 architecture a of PUF is
 
 component Ring_OScillator_n
-generic(n:integer :=31);--N?�環形�???
+generic(n:integer :=31);--N?�環形�???
 port( 	EN 		: in 	std_logic;
 		ck_out	: out  	std_logic
 
@@ -58,6 +59,7 @@ signal clk_Ring 	:std_logic_vector(7 downto 0);
 signal nHz_a,nHz_b	:std_logic_Vector(63 downto 0);
 signal clk_a,clk_b,clk_1Hz	:std_logic;
 begin
+	Ring_OScillator_out<=clk_Ring(0)&clk_Ring(7);
 	divider_50000000	:divider_n
 	generic	map(N=>50000000)
 	port	map(clk_50M,clk_1Hz);
